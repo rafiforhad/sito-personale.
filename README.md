@@ -1,1 +1,6 @@
-# sito-personale.
+<h1>Ciao, sono Leo</h1>
+<p>Mi piace fare programmi.</p>
+<ul>
+<li>Lazarus</li>
+<li>GitHub</li>
+</ul>
