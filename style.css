@@ -1,17 +1,21 @@
-body {
-background: #fff7e6;
-color: #222222;
-font-family: Arial, sans-serif;
+table {
+border-collapse: collapse;
+width: 100%;
+background: white;
 }
-body {
-max-width: 700px;
-margin: 0 auto;
-padding: 20px;
+th, td {
+border: 1px solid #999999;
+padding: 8px;
+text-align: left;
 }
-h1 {
-color: #12467a;
+th {
+background: #12467a;
+color: white;
 }
-h2 {
-nav a:hover {
-background: #f28c28;
+tr:nth-child(even) {
+background: #eef3f8;
+}
+img {
+max-width: 100%;
+border-radius: 12px;
 }
