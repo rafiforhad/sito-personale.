@@ -1,21 +1,82 @@
+/* STILE GENERALE DEL SITO */
+body {
+    background: lightyellow;
+    color: #222222;
+    font-family: Arial, sans-serif;
+}
+
+/* DIMENSIONI DELLA PAGINA */
+body {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* TITOLI */
+h1 {
+    color: royalblue;
+}
+
+h2 {
+    color: seagreen;
+    border-bottom: 2px solid seagreen;
+}
+
+/* MENU A BOTTONI */
+nav a {
+    display: inline-block;
+    background: seagreen;
+    color: white;
+    padding: 8px 14px;
+    margin-right: 6px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+/* EFFETTO AL PASSAGGIO DEL MOUSE */
+nav a:hover {
+    background: orange;
+}
+
+/* TABELLA */
 table {
-border-collapse: collapse;
-width: 100%;
-background: white;
+    border-collapse: collapse;
+    width: 100%;
+    background: white;
 }
+
+/* CELLE DELLA TABELLA */
 th, td {
-border: 1px solid #999999;
-padding: 8px;
-text-align: left;
+    border: 1px solid #999999;
+    padding: 8px;
+    text-align: left;
 }
+
+/* INTESTAZIONE DELLA TABELLA */
 th {
-background: #12467a;
-color: white;
+    background: #12467a;
+    color: white;
 }
+
+/* RIGHE ALTERNATE */
 tr:nth-child(even) {
-background: #eef3f8;
+    background: #eef3f8;
 }
+
+/* IMMAGINI */
 img {
-max-width: 100%;
-border-radius: 12px;
+    max-width: 100%;
+    border-radius: 12px;
+}
+
+/* ADATTAMENTO PER TELEFONI */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    th, td {
+        padding: 4px;
+        font-size: 14px;
+    }
 }
